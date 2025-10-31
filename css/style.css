@@ -25,6 +25,13 @@
   font-family: 'KP CheongPong';
   src: url('https://noelleshiromiya.github.io/css/assets/fonts/KP-CheongPong.woff2') format('woff2');
 }
+/* 导入 Perfect DOS VGA 437 Win */
+@font-face {
+    font-family: "Perfect DOS VGA 437 Win";
+    src: url("https://botoxparty.github.io/XP.css/PerfectDOSVGA437Win.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: "ZSFT-603", "LXGW WenKai GB";
@@ -135,6 +142,24 @@ li li {
   list-style-type: "\25B7";
 }
 
+code {
+    font-family: monospace;
+    * {
+        font-family: monospace;
+    }
+}
+pre {
+    display: block;
+    padding: 12px 8px;
+    background-color: black;
+    color: #c0c0c0;
+    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
+    font-size: 16px !important;
+    margin: 0;
+    * {
+        font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
+    }
+	
 /* 以下内容来自萌娘百科 https://zh.moegirl.org.cn/index.php?diff=834104 感谢贡献！*/
 /* 版权协定：知识共享 署名-非商业性使用-相同方式共享 3.0 */
 [lang] { font-family: initial; font-feature-settings: "locl" on; -webkit-font-feature-settings: "locl" on; }
