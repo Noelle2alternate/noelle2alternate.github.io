@@ -14,6 +14,8 @@
 @import url("https://fontsapi.zeoseven.com/89/bold/result.css");
 @import url("https://fontsapi.zeoseven.com/89/light/result.css");
 @import url("https://fontsapi.zeoseven.com/89/main/result.css");
+/* 导入千菅书体 */
+@import url("https://fontsapi.zeoseven.com/774/main/result.css");
 /* 导入 Unifont*/
 @import url("https://fontsapi.zeoseven.com/572/main/result.css");
 /* 导入朝鲜字体 青峰体 */
@@ -57,7 +59,7 @@ th {
     color: black;
 }
 textarea {
-    font-family: "Unifont";
+    font-family: monospace;
     font-weight: normal;
     border-radius: 1px;
     color: black !important;
@@ -128,7 +130,7 @@ button {
 	font-family: "LXGW WenKai TC", "LXGW WenKai"; 
 }
 [lang=ja] { 
-	font-family: "LXGW WenKai";
+	font-family: "ChisugaShotai", "LXGW WenKai";
 }
 [lang=ko] {
 	font-family: "LXGW WenKai";
