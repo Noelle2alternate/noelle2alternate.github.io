@@ -123,6 +123,14 @@ button {
     font-variant-emoji: text;
 }
 
+li {
+  list-style-type: "\25B6";
+}
+
+li li {
+  list-style-type: "\25B7";
+}
+
 /* 以下内容来自萌娘百科 https://zh.moegirl.org.cn/index.php?diff=834104 感谢贡献！*/
 /* 版权协定：知识共享 署名-非商业性使用-相同方式共享 3.0 */
 [lang] { font-family: initial; font-feature-settings: "locl" on; -webkit-font-feature-settings: "locl" on; }
