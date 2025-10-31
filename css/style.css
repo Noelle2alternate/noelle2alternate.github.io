@@ -143,19 +143,16 @@ li li {
 }
 
 code {
-    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
+    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang" !important;
 }
 pre {
     display: block;
     padding: 12px 8px;
     background-color: black;
     color: #c0c0c0;
-    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
+    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang" !important;
     font-size: 16px !important;
     margin: 0;
-    * {
-        font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
-    }
 }
 	
 /* 以下内容来自萌娘百科 https://zh.moegirl.org.cn/index.php?diff=834104 感谢贡献！*/
