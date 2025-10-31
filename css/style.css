@@ -143,10 +143,7 @@ li li {
 }
 
 code {
-    font-family: monospace;
-    * {
-        font-family: monospace;
-    }
+    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
 }
 pre {
     display: block;
