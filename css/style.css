@@ -189,6 +189,7 @@ li li {
         
         .nav-links li {
             margin: 0 4px;
+			list-style-type: none;
         }
         
         .nav-links a {
