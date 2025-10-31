@@ -40,7 +40,7 @@ body {
     background-image: url("https://noelleshiromiya.github.io/css/assets/nina-bg-export.png");
     background-repeat: repeat;
     background-attachment: fixed;
-    padding: 0 16px;
+    padding: 0 16px 16px 16px;
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
