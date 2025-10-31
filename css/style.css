@@ -154,11 +154,12 @@ pre {
     background-color: black;
     color: #c0c0c0;
     font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
-    font-size: 12px !important;
+    font-size: 16px !important;
     margin: 0;
     * {
         font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang";
     }
+}
 	
 /* 以下内容来自萌娘百科 https://zh.moegirl.org.cn/index.php?diff=834104 感谢贡献！*/
 /* 版权协定：知识共享 署名-非商业性使用-相同方式共享 3.0 */
