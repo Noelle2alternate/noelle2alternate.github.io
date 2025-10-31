@@ -123,6 +123,10 @@ button {
     font-variant-emoji: text;
 }
 
+a {
+  color: #3499ff;
+}
+
 li {
   list-style-type: "\25B6";
 }
