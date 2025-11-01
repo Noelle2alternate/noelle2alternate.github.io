@@ -196,7 +196,7 @@ footer {
 	font-family: "ZSFT-603", "LXGW WenKai";
 }
 [lang=ko-KP] {
-	font-family: "ZSFT-603", "KP CheongPong";
+	font-family: "ZSFT-603", "KP CheongPong", "LXGW WenKai";
 }
 [lang=en] {
 	font-family: "ZSFT-603";
@@ -256,6 +256,7 @@ footer {
     .wikitable > tr > th,.wikitable > tr > td,.wikitable > * > tr > th,.wikitable > * > tr > td {
         border: 1px solid #a2a9b1;
         padding: 0.2em 0.4em;
+		text-align: left;
     }
 
     .wikitable > tr > th,.wikitable > * > tr > th {
@@ -266,7 +267,3 @@ footer {
     .wikitable > caption {
         font-weight: bold;
     }
-
-.ko-KP {
-	font-family: "KP CheongPong", "LXGW WenKai";
-}
