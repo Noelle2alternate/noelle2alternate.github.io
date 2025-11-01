@@ -146,9 +146,6 @@ code {
     font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang" !important;
 }
 pre {
-	width: 96%;
-    max-width: 1080px;
-    display: block;
     padding: 12px 8px;
     background-color: black;
     color: #c0c0c0;
