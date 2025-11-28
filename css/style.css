@@ -23,7 +23,7 @@
 /* 导入朝鲜字体 青峰体 */
 @font-face {
   font-family: 'KP CheongPong';
-  src: url('https://noelleshiromiya.github.io/css/assets/fonts/KP-CheongPong.woff2') format('woff2');
+  src: url('https://noelle2alternate.github.io/css/assets/fonts/KP-CheongPong.woff2') format('woff2');
 }
 /* 导入 Perfect DOS VGA 437 Win */
 @font-face {
@@ -37,7 +37,7 @@ body {
     font-family: "ZSFT-603", "LXGW WenKai GB";
     font-weight: normal;
     font-size: 20px;
-    background-image: url("https://noelleshiromiya.github.io/css/assets/nina-bg-export.png");
+    background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
     background-repeat: repeat;
     background-attachment: fixed;
     padding: 0 16px 16px 16px;
@@ -132,7 +132,7 @@ button {
 
 a {
   color: #00b064;
-  background-image: url('https://noelleshiromiya.github.io/css/assets/DIYUSI-Link.svg');
+  background-image: url('https://noelle2alternate.github.io/css/assets/DIYUSI-Link.svg');
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 24px; 
