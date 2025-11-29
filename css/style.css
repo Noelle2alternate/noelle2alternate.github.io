@@ -163,28 +163,28 @@ footer {
 * 关于上述这个 CSS 属性的用法，参阅：https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings 注意：此文引用的 OpenType Feature Tags list 同样需要关注。
 */
 [lang=zh-hant] { 
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-hans] {
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-CN] { 
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-HK] { 
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-TW] { 
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=ja] { 
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "VLPGothic";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "VLPGothic";
 }
 [lang=ko] {
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=ko-KP] {
-	font-family: "KP CheongPong";
+	font-family: "ZSFT-396", "KP CheongPong";
 }
 [lang=en] {
 	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
