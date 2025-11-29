@@ -16,9 +16,11 @@
   font-family: 'KP CheongPong';
   src: url('https://noelle2alternate.github.io/css/assets/fonts/KP-CheongPong.woff2') format('woff2');
 }
+/* 导入标点符号字体 */
+@import url("data:text/css,%40font-face%7Bfont-family%3A%22ZSFT-418%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A100%20900%3Bfont-display%3Aswap%3B%7D");
 
 body {
-    font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
+    font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-weight: normal;
     font-size: 20px;
     background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
@@ -104,7 +106,7 @@ input {
 }
 
 button {
-    font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
+    font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid #003c74;
@@ -159,31 +161,31 @@ footer {
 * 关于上述这个 CSS 属性的用法，参阅：https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings 注意：此文引用的 OpenType Feature Tags list 同样需要关注。
 */
 [lang=zh-hant] { 
-	font-family: "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-hans] {
-	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-CN] { 
-	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-HK] { 
-	font-family: "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-TW] { 
-	font-family: "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=ja] { 
-	font-family: "IBM Plex Sans KR", "VLPGothic";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "VLPGothic";
 }
 [lang=ko] {
-	font-family: "IBM Plex Sans KR", "undefined";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "undefined";
 }
 [lang=ko-KP] {
-	font-family: "KP CheongPong", "LXGW WenKai";
+	font-family: "KP CheongPong";
 }
 [lang=en] {
-	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 
 .navbar {
@@ -229,7 +231,6 @@ footer {
             color: #000000;
             font-weight: bold;
             font-size: 40px !important;
-            text-shadow: rgba(0, 0, 0, 0.5) 0px 4px 4px;
 			line-height: normal;
 			background-image: none;
         }
