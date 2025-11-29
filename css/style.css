@@ -1,40 +1,24 @@
-/* 导入霞鹜文楷*/
-@import url("https://fontsapi.zeoseven.com/292/main/result.css");
-@import url("https://fontsapi.zeoseven.com/292/medium/result.css");
-@import url("https://fontsapi.zeoseven.com/292/light/result.css");
-/* 导入霞鹜文楷 GB*/
-@import url("https://fontsapi.zeoseven.com/292/gb-regular/result.css");
-@import url("https://fontsapi.zeoseven.com/292/gb-medium/result.css");
-@import url("https://fontsapi.zeoseven.com/292/gb-light/result.css");
-/* 导入霞鹜文楷 TC*/
-@import url("https://fontsapi.zeoseven.com/292/tc-regular/result.css");
-@import url("https://fontsapi.zeoseven.com/292/tc-medium/result.css");
-@import url("https://fontsapi.zeoseven.com/292/tc-light/result.css");
-/* 导入芫茜雅楷*/
-@import url("https://fontsapi.zeoseven.com/89/bold/result.css");
-@import url("https://fontsapi.zeoseven.com/89/light/result.css");
-@import url("https://fontsapi.zeoseven.com/89/main/result.css");
-/* 导入千菅书体 */
-@import url("https://fontsapi.zeoseven.com/774/main/result.css");
-/* 导入 Unifont*/
-@import url("https://fontsapi.zeoseven.com/572/main/result.css");
-/* 导入 Nimbus Roman */
-@import url("data:text/css,%40font-face%7Bfont-family%3A%22ZSFT-603%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F603%2Fbold.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F603%2Fbold.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A700%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-603%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F603%2Fbold-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F603%2Fbold-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A700%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-603%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F603%2Fitalic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F603%2Fitalic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A400%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-603%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F603%2Fmain.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F603%2Fmain.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A400%3Bfont-display%3Aswap%3B%7D");
+/* 导入文泉驿微米黑*/
+@import url("https://fontsapi.zeoseven.com/25/main/result.css");
+/* 导入文泉驿正黑*/
+@import url("https://fontsapi.zeoseven.com/373/main/result.css");
+/* 导入文泉驿等宽微米黑 Mono */
+@import url("https://fontsapi.zeoseven.com/372/main/result.css");
+/* 导入 IBM Plex Sans KR */
+@import url("https://fontsapi.zeoseven.com/401/main/result.css");
+/* 导入 VLPGothic */
+@font-face {
+	font-family: 'VLPGothic';
+	src: url('https://vlgothic.dicey.org/files/VL-PGothic-Regular.woff') format('woff');
+}
 /* 导入朝鲜字体 青峰体 */
 @font-face {
   font-family: 'KP CheongPong';
   src: url('https://noelle2alternate.github.io/css/assets/fonts/KP-CheongPong.woff2') format('woff2');
 }
-/* 导入 Perfect DOS VGA 437 Win */
-@font-face {
-    font-family: "Perfect DOS VGA 437 Win";
-    src: url("https://botoxparty.github.io/XP.css/PerfectDOSVGA437Win.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
-    font-family: "ZSFT-603", "LXGW WenKai GB";
+    font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-weight: normal;
     font-size: 20px;
     background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
@@ -68,7 +52,7 @@ th {
     color: black;
 }
 textarea {
-    font-family: monospace;
+    font-family: "WenQuanYi Micro Hei Mono", monospace;
     font-weight: normal;
     border-radius: 1px;
     color: black !important;
@@ -106,7 +90,7 @@ blockquote {
 }
 
 input {
-    font-family: monospace;
+    font-family: "WenQuanYi Micro Hei Mono", monospace;
     font-weight: normal;
     border: 1px solid #7f9db9;
     background-color: #fff !important;
@@ -120,7 +104,7 @@ input {
 }
 
 button {
-    font-family: "ZSFT-603", "LXGW WenKai GB";
+    font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid #003c74;
@@ -151,14 +135,14 @@ li li {
 }
 
 code {
-    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang" !important;
+    font-family: "WenQuanYi Micro Hei Mono", monospace !important;
 }
 pre {
 	text-wrap: wrap;
     padding: 12px 8px;
     background-color: black;
     color: #c0c0c0;
-    font-family: "Perfect DOS VGA 437 Win", "SimSun", "Batang" !important;
+    font-family: "WenQuanYi Micro Hei Mono", monospace !important;
     font-size: 16px !important;
     margin: 0;
 }
@@ -175,40 +159,40 @@ footer {
 * 关于上述这个 CSS 属性的用法，参阅：https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings 注意：此文引用的 OpenType Feature Tags list 同样需要关注。
 */
 [lang=zh-hant] { 
-	font-family: "ZSFT-603", "LXGW WenKai TC", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-hans] {
-	font-family: "ZSFT-603", "LXGW WenKai GB", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-CN] { 
-	font-family: "ZSFT-603", "LXGW WenKai GB", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 [lang=zh-HK] { 
-	font-family: "ZSFT-603", "JyunsaiKaai", "LXGW WenKai TC", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "undefined";
 }
 [lang=zh-TW] { 
-	font-family: "ZSFT-603", "LXGW WenKai TC", "LXGW WenKai"; 
+	font-family: "IBM Plex Sans KR", "undefined";
 }
 [lang=ja] { 
-	font-family: "ZSFT-603", "ChisugaShotai", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "VLPGothic";
 }
 [lang=ko] {
-	font-family: "ZSFT-603", "LXGW WenKai";
+	font-family: "IBM Plex Sans KR", "undefined";
 }
 [lang=ko-KP] {
-	font-family: "ZSFT-603", "KP CheongPong", "LXGW WenKai";
+	font-family: "KP CheongPong", "LXGW WenKai";
 }
 [lang=en] {
-	font-family: "ZSFT-603";
+	font-family: "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 
 .navbar {
-            background-color: #00B800;
-            background: linear-gradient(180deg,rgba(0, 184, 0, 1) 0%, rgba(184, 248, 24, 1) 100%);
-            border: 2px outset #00B800;
-            padding: 4px;
-            margin-bottom: 16px;
-            border-radius: 0px 0px 8px 8px;
+            background: linear-gradient(to bottom, #0000 2px, #c9d0d9 2px, #b3c0cc 30%, #0000 30%),	linear-gradient(to bottom, #9eadbc 60%, #fff);
+			border: solid black;
+			border-width: 1px 0 1px 0;
+			box-shadow: 0 0 2px black;
+			border-radius: 0px 0px 4px 4px;
+			margin-bottom: 16px;
         }
         
         .nav-links {
@@ -227,17 +211,22 @@ footer {
             display: block;
             padding: 4px 8px;
             background-color: transparent;
-            color: #FFFFFF;
+            color: #000000;
             text-decoration: none;
             border: none;
             font-size: 20px;
 			line-height: normal;
 			background-image: none;
+			border-radius: 4px;
+        }
+
+		.nav-links a:hover {
+            background: #fff5;
         }
 
 .home-link {
             padding: 4px 8px;
-            color: #FFFFFF;
+            color: #000000;
             font-weight: bold;
             font-size: 40px !important;
             text-shadow: rgba(0, 0, 0, 0.5) 0px 4px 4px;
