@@ -6,6 +6,8 @@
 @import url("https://fontsapi.zeoseven.com/372/main/result.css");
 /* 导入 IBM Plex Sans KR */
 @import url("https://fontsapi.zeoseven.com/401/main/result.css");
+/* 导入英文字体 */
+@import url("data:text/css,%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fbold.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fbold.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A700%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fbold-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fbold-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A700%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fextra-light.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fextra-light.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A200%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fextra-light-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fextra-light-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A200%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fitalic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fitalic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A400%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Flight.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Flight.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A300%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Flight-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Flight-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A300%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fmedium.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fmedium.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A500%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fmedium-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fmedium-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A500%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fmain.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fmain.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A400%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fsemi-bold.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fsemi-bold.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A600%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fsemi-bold-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fsemi-bold-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A600%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Ftext.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Ftext.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A450%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Ftext-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Ftext-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A450%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fthin.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fthin.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A100%3Bfont-display%3Aswap%3B%7D%40font-face%7Bfont-family%3A%22ZSFT-396%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F396%2Fthin-italic.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F396%2Fthin-italic.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Aitalic%3Bfont-weight%3A100%3Bfont-display%3Aswap%3B%7D");
 /* 导入 VLPGothic */
 @font-face {
 	font-family: 'VLPGothic';
@@ -20,7 +22,7 @@
 @import url("data:text/css,%40font-face%7Bfont-family%3A%22ZSFT-418%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A100%20900%3Bfont-display%3Aswap%3B%7D");
 
 body {
-    font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
+    font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-weight: normal;
     font-size: 20px;
     background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
@@ -106,7 +108,7 @@ input {
 }
 
 button {
-    font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
+    font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei" !important;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid #003c74;
@@ -185,7 +187,7 @@ footer {
 	font-family: "KP CheongPong";
 }
 [lang=en] {
-	font-family: "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
+	font-family: "ZSFT-396", "ZSFT-418", "IBM Plex Sans KR", "WenQuanYi Micro Hei";
 }
 
 .navbar {
