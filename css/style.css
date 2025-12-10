@@ -67,14 +67,15 @@ textarea {
     overflow-wrap: break-word;
     background-color: #fff !important;
     column-count: initial !important;
-    margin: 0em 0em 0em 0em;
+    margin: 4px;
     border: 1px solid #7f9db9;
     padding: 4px;
     white-space: pre-wrap;
-    font-size: 16px;
+    font-size: 20px;
     width: 600px;
     height: 200px;
     font-variant-emoji: text;
+    line-height: 1.6rem;
 }
 
 blockquote {
@@ -101,9 +102,11 @@ input {
     box-sizing: border-box;
     appearance: none;
     border-radius: 1px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: text;
     font-variant-emoji: text;
+    line-height: 1.6rem;
+    margin: 4px;
 }
 
 button {
@@ -116,6 +119,8 @@ button {
     border-radius: 2px;
     font-variant-emoji: text;
 	margin: 4px;
+	line-height: 1.6rem;
+    padding: 2px 12px;
 }
 
 a {
