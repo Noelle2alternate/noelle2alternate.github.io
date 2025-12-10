@@ -24,8 +24,7 @@ body {
     font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
     font-weight: normal;
     font-size: 20px;
-    background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
-    background-repeat: repeat;
+    background-image: linear-gradient(to top, rgb(207, 238, 255), rgb(255, 255, 255));
     background-attachment: fixed;
     padding: 0 16px 16px 16px;
     margin: 0 auto;
