@@ -14,9 +14,6 @@
 @import url("https://fontsapi.zeoseven.com/150/main/result.css");
 /* 导入无缺通天 (Noto Unicode) */
 @import url("https://fontsapi.zeoseven.com/809/main/result.css");
-/* 导入煮豆黑体 (ZSFT-418) */
-@import url("data:text/css,%40font-face%7Bfont-family%3A%22ZSFT-418%22%3Bsrc%3Aurl(%22https%3A%2F%2Ffontsapi.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%2Curl(%22https%3A%2F%2Ffontsapi-storage.zeoseven.com%2F418%2Fmain.woff2%22)%20format(%22woff2%22)%3Bfont-style%3Anormal%3Bfont-weight%3A100%20900%3Bfont-display%3Aswap%3B%7D");
-/* 导入
 /* 导入朝鲜字体 青峰体 */
 @font-face {
   font-family: 'KP CheongPong';
@@ -24,7 +21,7 @@
 }
 
 body {
-    font-family: "Roboto", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+    font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
     font-weight: normal;
     font-size: 20px;
     background-image: url("https://noelle2alternate.github.io/css/assets/nina-bg-export.png");
@@ -58,7 +55,7 @@ th {
     color: black;
 }
 textarea {
-    font-family: "ZSFT-du", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
+    font-family: "ZSFT-du", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
     font-weight: normal;
     border-radius: 1px;
     color: black !important;
@@ -96,7 +93,7 @@ blockquote {
 }
 
 input {
-    font-family: "ZSFT-du", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
+    font-family: "ZSFT-du", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
     font-weight: normal;
     border: 1px solid #7f9db9;
     background-color: #fff !important;
@@ -110,7 +107,7 @@ input {
 }
 
 button {
-    font-family: "Roboto", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";;
+    font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid #003c74;
@@ -142,14 +139,14 @@ li li {
 }
 
 code {
-    font-family: "ZSFT-du", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
+    font-family: "ZSFT-du", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
 }
 pre {
 	text-wrap: wrap;
     padding: 12px 8px;
     background-color: black;
     color: #c0c0c0;
-    font-family: "ZSFT-du", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
+    font-family: "ZSFT-du", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
     font-size: 16px !important;
     margin: 0;
 }
@@ -166,31 +163,31 @@ footer {
 * 关于上述这个 CSS 属性的用法，参阅：https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings 注意：此文引用的 OpenType Feature Tags list 同样需要关注。
 */
 [lang=zh-hant] { 
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
 }
 [lang=zh-hans] {
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
 }
 [lang=zh-CN] { 
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
 }
 [lang=zh-HK] { 
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
 }
 [lang=zh-TW] { 
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
 }
 [lang=ja] { 
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans JP", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans JP", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
 }
 [lang=ko] {
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans KR", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans KR", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
 }
 [lang=ko-KP] {
-	font-family: "Roboto", "ZSFT-418", "KP CheongPong", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "KP CheongPong", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
 }
 [lang=en] {
-	font-family: "Roboto", "ZSFT-418", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+	font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
 }
 
 .navbar {
