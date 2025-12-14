@@ -24,14 +24,14 @@ body {
     font-family: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
     font-weight: normal;
     font-size: 20px;
-    background-image: linear-gradient(to top, rgb(207, 238, 255), rgb(255, 255, 255));
+    background-image: linear-gradient(to top, rgb(0,58,89), rgb(0,108,166));
     background-attachment: fixed;
     padding: 0 16px 16px 16px;
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
-    font-variant-emoji: text;
+	color: #ffffff;
 }
 
 table {
@@ -47,7 +47,6 @@ table {
   text-align: center;
   padding: 8px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 4px;
-  font-variant-emoji: text;
 }
 th {
     background-color: white;
@@ -123,7 +122,7 @@ button {
 }
 
 a {
-  color: #00b064;
+  color: rgb(0,158,243);
   background-image: url('https://noelle2alternate.github.io/css/assets/DIYUSI-Link.svg');
   background-repeat: no-repeat;
   background-position: right center;
