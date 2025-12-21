@@ -4,14 +4,11 @@
    ============================================ */
 
 /* 中文字体 (Chinese Fonts) */
-@import url("https://fontsapi.zeoseven.com/389/main/result.css");  /* IBM Plex Sans SC */
-@import url("https://fontsapi.zeoseven.com/123/main/result.css");  /* IBM Plex Sans TC */
+@import url("https://fontsapi.zeoseven.com/69/main/result.css");  /* Noto Sans CJK */
+@import url("https://fontsapi.zeoseven.com/285/main/result.css");  /* Noto Serif CJK */
 @import url("https://fontsapi.zeoseven.com/150/main/result.css");  /* Plangothic 遍黑体 */
 @import url("https://fontsapi.zeoseven.com/809/main/result.css");  /* Noto Unicode 无缺通天 */
 
-/* 日韩字体 (Japanese & Korean Fonts) */
-@import url("https://fontsapi.zeoseven.com/400/main/result.css");  /* IBM Plex Sans JP */
-@import url("https://fontsapi.zeoseven.com/401/main/result.css");  /* IBM Plex Sans KR */
 
 /* 西文字体 (Latin Fonts) */
 @import url("https://fontsapi.zeoseven.com/hn/main/result.css");   /* Roboto */
@@ -74,14 +71,10 @@
   --icon-size: 20px;
   
   /* 字体栈 (Font Stacks) */
-  --font-family-base: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+  --font-family-base: "Roboto", "Noto Sans CJK", "Plangothic", "Noto Unicode";
   --font-family-code: "ZSFT-du", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode", monospace;
-  --font-family-zh-hant: "Roboto", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
-  --font-family-zh-hans: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
-  --font-family-ja: "Roboto", "IBM Plex Sans JP", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
-  --font-family-ko: "Roboto", "IBM Plex Sans KR", "IBM Plex Sans TC", "IBM Plex Sans SC", "Plangothic", "Noto Unicode";
-  --font-family-kp: "Roboto", "KP CheongPong", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
-  --font-family-en: "Roboto", "IBM Plex Sans SC", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+  --font-family-kp: "KP CheongPong", "Noto Serif CJK", "IBM Plex Sans TC", "Plangothic", "Noto Unicode";
+  --font-family-en: "Roboto", "Noto Sans CJK", "Plangothic", "Noto Unicode";
 }
 
 /* ============================================
@@ -401,7 +394,7 @@ blockquote::before {
 }
 
 .home-link {
-  padding: 4px 12px;
+  padding: 12px 12px;
   color: #000000;
   font-weight: bold;
   font-size: var(--font-size-large) !important;
@@ -465,25 +458,6 @@ blockquote::before {
   font-family: initial; 
   font-feature-settings: "locl" on; 
   -webkit-font-feature-settings: "locl" on; 
-}
-
-[lang=zh-hant],
-[lang=zh-HK],
-[lang=zh-TW] { 
-  font-family: var(--font-family-zh-hant);
-}
-
-[lang=zh-hans],
-[lang=zh-CN] {
-  font-family: var(--font-family-zh-hans);
-}
-
-[lang=ja] { 
-  font-family: var(--font-family-ja);
-}
-
-[lang=ko] {
-  font-family: var(--font-family-ko);
 }
 
 [lang=ko-KP] {
