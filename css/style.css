@@ -12,7 +12,7 @@
 
 /* 西文字体 (Latin Fonts) */
 @import url("https://fontsapi.zeoseven.com/hn/main/result.css");   /* Roboto */
-@import url("https://fontsapi.zeoseven.com/587/main/result.css");   /* Roboto Serif 20pt */
+@import url("https://fontsapi.zeoseven.com/327/main/result.css");   /* Abyssinica SIL */
 
 /* 特殊字体 (Special Fonts) */
 /* ZSFT-du 双体字 */
@@ -74,8 +74,7 @@
   /* 字体栈 (Font Stacks) */
   --font-family-base: "Roboto", "Noto Sans CJK", "Plangothic", "Noto Unicode";
   --font-family-code: "ZSFT-du", "Noto Sans CJK", "Plangothic", "Noto Unicode", monospace;
-  --font-family-kp: "Roboto Serif 20pt", "KP CheongPong", "Noto Serif CJK", "Plangothic", "Noto Unicode";
-  --font-family-en: "Roboto", "Noto Sans CJK", "Plangothic", "Noto Unicode";
+  --font-family-kp: "Abyssinica SIL", "KP CheongPong", "Noto Serif CJK", "Plangothic", "Noto Unicode";
 }
 
 /* ============================================
@@ -114,7 +113,7 @@ body {
    排版
    ============================================ */
 h1, h2, h3, h4, h5, h6 {
-   font-family: "Roboto Serif 20pt", "Noto Serif CJK", "Plangothic", "Noto Unicode";
+   font-family: "Abyssinica SIL", "Noto Serif CJK", "Plangothic", "Noto Unicode";
   margin-bottom: 1rem;
   line-height: 1.3;
   font-weight: 600;
@@ -459,14 +458,11 @@ blockquote::before {
   font-family: initial; 
   font-feature-settings: "locl" on; 
   -webkit-font-feature-settings: "locl" on; 
+   font-family: var(--font-family-base);
 }
 
 [lang=ko-KP] {
   font-family: var(--font-family-kp);
-}
-
-[lang=en] {
-  font-family: var(--font-family-en);
 }
 
 /* ============================================
